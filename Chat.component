@@ -1,0 +1,44 @@
+{
+  "attributes": {
+    "dateAttribute": "DateTime.  The model attribute name containing the chat's date & time.",
+    "authorAttribute": "Author.  The model attribute field name containing the chat's author name.",
+    "contentAttribute": "Content.  The model attribute name containing the chat's content."
+  },
+  "configurationEditors": [
+    "LABEL",
+    "STATE_VALUE",
+    "DATA_SOURCE_LIST"
+  ],
+  "dateCreated": "2023-03-31T14:18:27.074913+00:00",
+  "dateModified": "2023-03-31T14:18:27.0749331+00:00",
+  "designTimeImageURL": null,
+  "designTimeRenderType": "TEXTAREA",
+  "developerName": "Chat",
+  "developerSummary": "Chat history viewer",
+  "elementType": "CUSTOM_PAGE_COMPONENT",
+  "icon": "Chats",
+  "id": "d990cce2-5342-4eb9-8555-c1dac72a4feb",
+  "key": "chat",
+  "legacyScriptURL": "http://localhost:8080/chat.js",
+  "legacyStyleSheetURL": "http://localhost:8080/chat.css",
+  "scriptURL": null,
+  "styleSheetURL": null,
+  "whoCreated": {
+    "email": "markwatts@boomi.com",
+    "firstName": "Mark",
+    "id": "4e027512-3134-4403-91c2-227e8256a7f0",
+    "lastName": "Watts"
+  },
+  "whoModified": {
+    "email": "markwatts@boomi.com",
+    "firstName": "Mark",
+    "id": "4e027512-3134-4403-91c2-227e8256a7f0",
+    "lastName": "Watts"
+  },
+  "whoOwner": {
+    "email": "markwatts@boomi.com",
+    "firstName": "Mark",
+    "id": "4e027512-3134-4403-91c2-227e8256a7f0",
+    "lastName": "Watts"
+  }
+}
