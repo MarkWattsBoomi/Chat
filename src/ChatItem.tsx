@@ -18,6 +18,9 @@ export class ChatItem extends React.Component<any,any> {
         if(chat.author === me){
             className += " chat-item-me"
         }
+        else {
+            className += " chat-item-other"
+        }
         return (
             <div
                 className={className}

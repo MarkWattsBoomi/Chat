@@ -12,7 +12,7 @@ It will need re-pointing to your local copy of the .js & .css files.
 A list of chat items, any type.  We define which attributes map to author, date & content in the attributes.
 
 ## Label
-A tooltip to be displayed in the header bar.
+A title to be displayed in the header bar.
 
 ## Attributes
 
