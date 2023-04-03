@@ -13,9 +13,8 @@ export class ChatItem extends React.Component<any,any> {
     render() {
         let chats: Chat = this.props.chats;
         let chat: oChat = chats.chats.getChat(this.props.chatId);
-        let me: string = chats.user.email;
         let className: string = "chat-item";
-        if(chat.author === me){
+        if(chat.author === chats.currentUser){
             className += " chat-item-me"
         }
         else {

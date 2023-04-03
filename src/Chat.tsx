@@ -15,6 +15,7 @@ This class shows a chat history.
 export default class Chat extends FlowComponent {
 
     chats: oChats;
+    currentUser: string;
     
     constructor(props: any){
         super(props);
@@ -25,6 +26,14 @@ export default class Chat extends FlowComponent {
     async componentDidMount(){
         await super.componentDidMount();   
         (manywho as any).eventManager.addDoneListener(this.moveHappened, this.componentId);
+        let userFieldName: string = this.getAttribute("currentUserField","$user");
+        if(userFieldName==="$user"){
+            this.currentUser = this.user.email;
+        }
+        else {
+            let userField : FlowField = await this.loadValue(userFieldName);
+            this.currentUser = userField.value as string;
+        }
         this.loadChats();
     }
 

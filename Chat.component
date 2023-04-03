@@ -2,15 +2,16 @@
   "attributes": {
     "dateAttribute": "DateTime.  The model attribute name containing the chat's date & time.",
     "authorAttribute": "Author.  The model attribute field name containing the chat's author name.",
-    "contentAttribute": "Content.  The model attribute name containing the chat's content."
+    "contentAttribute": "Content.  The model attribute name containing the chat's content.",
+    "currentUserField": "Current User Field.  Tells the component the name of a flow field which will contain the current user's name to match the author value in the chat messages. Defaults to $user.email."
   },
   "configurationEditors": [
     "LABEL",
     "STATE_VALUE",
     "DATA_SOURCE_LIST"
   ],
-  "dateCreated": "2023-03-31T14:18:27.074913+00:00",
-  "dateModified": "2023-03-31T14:18:27.0749331+00:00",
+  "dateCreated": "0001-01-01T00:00:00+00:00",
+  "dateModified": "2023-04-03T08:39:21.0829841+00:00",
   "designTimeImageURL": null,
   "designTimeRenderType": "TEXTAREA",
   "developerName": "Chat",
@@ -26,19 +27,19 @@
   "whoCreated": {
     "email": "markwatts@boomi.com",
     "firstName": "Mark",
-    "id": "4e027512-3134-4403-91c2-227e8256a7f0",
+    "id": "22dcefc8-b407-4974-8044-327cb44b134e",
     "lastName": "Watts"
   },
   "whoModified": {
     "email": "markwatts@boomi.com",
     "firstName": "Mark",
-    "id": "4e027512-3134-4403-91c2-227e8256a7f0",
+    "id": "22dcefc8-b407-4974-8044-327cb44b134e",
     "lastName": "Watts"
   },
   "whoOwner": {
     "email": "markwatts@boomi.com",
     "firstName": "Mark",
-    "id": "4e027512-3134-4403-91c2-227e8256a7f0",
+    "id": "22dcefc8-b407-4974-8044-327cb44b134e",
     "lastName": "Watts"
   }
 }
